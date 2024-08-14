@@ -13,7 +13,7 @@ A dataset from [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/
 
 **Identify the best Machine Learning Classification model that can be used to apply the CRISP-DM methodology to determine the factors that drive the success of tele-marketing campaigns for a Banking Institution**
 
-The evaluation of the best model will be based on the data available from the Bank's previous marketing campaigns, which highlights the acceptance or rejection of the product offered and includes of personal characteristics of the customer as well as a few specifics about how the product was offered to that individual
+The evaluation of the best model will be based on the data available from the Bank's previous marketing campaigns, which highlights the acceptance or rejection of the product offered and includes personal characteristics of the customer as well as a few specifics about how the product was offered to that individual
 
 ----
 
@@ -79,10 +79,10 @@ Following the CRISP-DM methodology:
 ## Conclusions
 
 
-* Based on these results, which target F1 scoring as a measure of adecuacy for the model to classify the tele-marketing data, the recommendation is to use **K Nearest Neighbors** as a first option
+* Based on these results, which target F1 scoring as a measure of adequacy for the model to classify the tele-marketing data, the recommendation is to use **K Nearest Neighbors** as a first option
 
 
-* Considering some of the drawbacks of **KNN**, a second best option would be to use a **Decision Tree** model
+* Considering some of the drawbacks of **KNN**, the second best option would be to use a **Decision Tree** model
 
 
 * Both of these models seem to strike an acceptable balance between performance scoring, simplicity when it comes to configuring hyper-parameters, and similar fitting times that do not appear resource intensive
@@ -93,7 +93,7 @@ Following the CRISP-DM methodology:
 
 
 * Given the challenges with such an unbalanced data set, the main recommendation is to further improve the data engineering process and apply more elaborate techniques to reduce that condition
-* Cycle through the tuning process with that new set of data and assess any improvement in performance, which may yield a differnt outcome for the best model to use
+* Cycle through the tuning process with that new set of engineered data and assess any improvement in performance, which may yield a different outcome for the best model to use
 * Priority should be put on working with the two best models identified in this initial assessment
 
 ----
